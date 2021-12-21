@@ -6,7 +6,7 @@ import Notfound from "./pages/Notfound";
 
 function App() {
   return (
-  <HashRouter basename={window.location.pathname || ''}>
+  <HashRouter>
     <Switch>
     <Route  path="/" exact component={Home} />
     <Route  path="/about" exact component={About} />
