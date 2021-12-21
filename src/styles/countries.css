@@ -1,0 +1,70 @@
+.countries ul {
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countries .listcountries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.countries .sorcontener {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 8px;
+    border-radius: 15px;
+    background: #282c34;
+    color: #61dafb;
+    box-shadow: 0 2px 2px rgba(51, 51, 51, 0.3);
+}
+
+.countries .sorcontener ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.countries .sorcontener ul input[type="radio"] {
+    transform: translate(-5px, 1px);
+}
+
+.countries .annuler {
+    max-width: 200px;
+    margin: auto;
+}
+
+.countries .annuler h5 {
+    border: 1px #282c34 solid;
+    text-align: center;
+    width: 180px;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    color: #ffff;
+    background: rgba(0, 0, 0, 0.616);
+}
+
+.countries .annuler h5:hover {
+    background: #61dafb;
+    border-color: #61dafb;
+    color: black;
+}
+
+@media all and (max-width:640px) {
+    .countries .sorcontener {
+        max-width: 450px;
+        margin: auto;
+    }
+    .countries .sorcontener ul {
+        justify-content: inherit;
+    }
+    .countries .sorcontener ul {
+        list-style-type: none;
+        display: block;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: flex-start;
+    }
+}
