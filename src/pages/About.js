@@ -1,4 +1,5 @@
 import React from 'react';
+import Countries from '../components/Countries';
 import Logo from '../components/Logo';
 // import Navigation from '../components/Navigation';
 
@@ -22,6 +23,7 @@ const About = () => {
              laudantium officiis optio temporibus eaque tempore perferendis,
              ut earum adipisci expedita vel, illo eligendi architecto iusto aspernatur similique!
          </p>
+         <div><Countries/></div>
      </div>   
     );
 };

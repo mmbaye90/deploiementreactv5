@@ -9,7 +9,7 @@ const Countries = () => {
     const url = "https://restcountries.com/v3.1/all?fields=flags,name,population,capital,region";
     const [getApi,setGetApi] = useState(true);
     const[rangeValue,setRangeValue] = useState(30);
-    const[dataTransformed,setDataTransformed] = useState([])
+    const[dataTransformed,setDataTransformed] = React.useState([])
     const continents = ["Africa","America","Asia","Europe","Oceania"]
     const [radioChecked,setRadioChecked] = useState("");
 
