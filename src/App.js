@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div>
-      <BrowserRouter basename='/deploiementreactv5'> 
+      <BrowserRouter basename='/'> 
 
       <Link to ="/">Accueil</Link>
       <Link to ="/about">About</Link>
