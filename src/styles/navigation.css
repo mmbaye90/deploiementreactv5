@@ -1,13 +1,15 @@
 .navigation {
-    box-shadow: 0 3px rgb(211, 205, 205);
+    margin-top: -1.5rem;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .navigation .lien {
     text-decoration: none;
     font-size: 1.2rem;
     background-color: rgb(180, 175, 175);
+    color: black;
     text-align: center;
     display: block;
     width: 75px;
