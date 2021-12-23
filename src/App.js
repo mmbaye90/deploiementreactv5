@@ -3,6 +3,7 @@ import { BrowserRouter} from "react-router-dom/cjs/react-router-dom.min";
 // import Navigation from "./components/Navigation";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import News from "./pages/News";
 // import Notfound from "./pages/Notfound";
 
 function App() {
@@ -13,6 +14,8 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home}/> 
             <Route path='/about' component={About}/> 
+            <Route path='/news' component={News}/> 
+
           </Switch>
 
      </BrowserRouter>
