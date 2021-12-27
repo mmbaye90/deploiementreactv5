@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import "../styles/article.css";
+import DeleteArticle from "./DeleteArticle";
 
 const Article = ({ article }) => {
   const [isEditing, setIsEditing] = useState(false);
@@ -58,7 +59,7 @@ const Article = ({ article }) => {
           <button onClick={() => setIsEditing(true)}>Edit</button>
         )}
 
-        <button>Delete</button>
+        <DeleteArticle id={article.id} />
       </div>
     </div>
   );
