@@ -23,7 +23,7 @@ const Article = ({ article }) => {
     const id = article.id;
     const data = {
       author: article.author,
-      content: editedContent,
+      content: editedContent ? editedContent : article.content,
       date: Date.now(),
     };
     const urlId = `http://localhost:3003/articles/${id}`;
